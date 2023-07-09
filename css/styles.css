@@ -1,0 +1,99 @@
+body {
+  font-family: Roboto;
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #fff;
+}
+.top-line {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  padding: 24px 0 24px 156px;
+}
+.logo-web {
+  color: #4d5ae5;
+}
+.text-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  letter-spacing: 0.32px;
+  text-align: center;
+  padding: 24px 30px 24px 76px;
+}
+.text-add {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  text-align: center;
+}
+.foote {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+web {
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.stydi {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.item {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  background-color: #2e2f42;
+}
+.text-align {
+  display: block;
+
+  color: aliceblue;
+  padding-top: 200px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 1.12px;
+
+  text-align: center;
+  flex-direction: column;
+
+  flex-shrink: 0;
+}
+.buttom {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  align-items: center;
+}
