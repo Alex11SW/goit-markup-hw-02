@@ -1,11 +1,16 @@
+:root {
+}
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   background-color: #fff;
+}
+.list {
+  list-style: none;
 }
 .top-line {
   justify-content: center;
@@ -24,17 +29,28 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   padding: 24px 0 24px 156px;
-}
-.logo-web {
+  text-decoration: none;
   color: #4d5ae5;
 }
+.logo-web {
+  color: #2e2f42;
+}
 .text-list {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
   letter-spacing: 0.32px;
   text-align: center;
   padding: 24px 30px 24px 76px;
+}
+.hove:hover {
+  color: #404bbf;
 }
 .text-add {
   font-family: Roboto;
