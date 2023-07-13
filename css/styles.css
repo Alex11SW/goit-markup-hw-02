@@ -9,6 +9,9 @@
 a {
   text-decoration: none;
 }
+.link {
+  text-decoration: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -258,6 +261,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-left: 40px;
+  background-color: #f4f4fd;
 }
 .team-text {
   color: var(--navyblue, #2e2f42);
@@ -283,7 +287,7 @@ body {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   margin-right: 24px;
 }
-.team-item2 {
+.team-item-two {
   display: inline-flex;
   padding-bottom: 0px;
   flex-direction: column;
@@ -297,7 +301,7 @@ body {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   margin-right: 24px;
 }
-.team-item3 {
+.team-item-fhree {
   display: inline-flex;
   padding-bottom: 0px;
   flex-direction: column;
@@ -311,7 +315,7 @@ body {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   margin-right: 24px;
 }
-.team-item4 {
+.team-item-four {
   display: inline-flex;
   padding-bottom: 0px;
   flex-direction: column;
@@ -334,7 +338,7 @@ body {
   gap: 8px;
   margin-bottom: 30px;
 }
-.team-h3 {
+.team-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -344,7 +348,7 @@ body {
   letter-spacing: 0.02em;
   margin: 0%;
 }
-.team-p {
+.team-desc {
   color: var(--slate, #434455);
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -368,6 +372,7 @@ body {
   margin-left: 156px;
 }
 .foote-logo {
+  font-family: "Raleway", sans-serif;
   display: inline-flex;
   height: 24px;
   font-weight: 800;
@@ -378,8 +383,9 @@ body {
   align-items: center;
   flex-shrink: 0;
   margin-top: 100px;
+  color: var(--iris);
 }
-.foote-logo-w {
+.foote-logo-web {
   display: flex;
   width: 44px;
   height: 21px;
@@ -393,7 +399,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.foote-logo-s {
+.foote-logo-stu {
   display: flex;
   width: 71px;
   height: 21px;
@@ -435,40 +441,27 @@ body {
   flex-shrink: 0;
 }
 .foo-logo {
+  font-family: "Raleway", sans-serif;
   display: inline-flex;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
   margin-left: 156px;
   margin-right: 0;
-}
-.foo-div-w {
-  display: flex;
-  width: 44px;
-  flex-direction: column;
-  justify-content: center;
-  color: var(--iris, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--iris, #4d5ae5);
 }
-.foo-div-s {
+.foo-div-stu {
   display: flex;
   width: 71px;
   flex-direction: column;
   justify-content: center;
   color: var(--navyblue, #2e2f42);
   font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 .foo-nav {
   display: inline-flex;
@@ -485,29 +478,32 @@ body {
   list-style: none;
   text-decoration: none;
 }
-.foo-nav-s {
+.foo-nav-studi {
   color: var(--navyblue, #2e2f42);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.foo-nav-p {
-  color: var(--navyblue, #2e2f42);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+.foo-nav-studi:hover {
+  color: #404bbf;
 }
-.foo-nav-c {
+.foo-nav-port {
   color: var(--navyblue, #2e2f42);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.foo-nav-cont {
+  color: var(--navyblue, #2e2f42);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .foo-address {
   display: inline-flex;
@@ -519,7 +515,22 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
   margin: 24px 0 24px 332px;
+  font-style: normal;
 }
 .foo-mail {
   margin-right: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+}
+.foo-mail:hover,
+.foo-mail:focus {
+  color: #404bbf;
+}
+/*------------------------------main------------------------------------------*/
+.butt-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
 }
