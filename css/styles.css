@@ -403,7 +403,7 @@ body {
   height: 21px;
   flex-direction: column;
   justify-content: center;
-  color: #f4f4fd;
+  color: var(--cloud, #f4f4fd);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
