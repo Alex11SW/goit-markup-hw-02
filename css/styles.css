@@ -53,7 +53,7 @@ body {
   justify-content: center;
   color: var(--navyblue, #2e2f42);
 }
-.list {
+.liste {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
@@ -150,6 +150,9 @@ body {
   flex-shrink: 0;
   padding: 120px 156px 0 156px;
   margin: 0%;
+}
+.list {
+  list-style: none;
 }
 .feature-ul {
   width: 1128px;
