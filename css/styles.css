@@ -485,10 +485,12 @@ body {
   letter-spacing: 0.02em;
 }
 .foo-nav-studi:hover,
-.foo-nav-studi:focus,
 .foo-nav-port:hover,
+.foo-nav-cont:hover {
+  color: #404bbf;
+}
+.foo-nav-studi:focus,
 .foo-nav-port:focus,
-.foo-nav-cont:hover,
 .foo-nav-cont:focus {
   color: #404bbf;
 }
