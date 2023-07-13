@@ -494,6 +494,7 @@ body {
 .foo-nav-cont:focus {
   color: #404bbf;
 }
+
 .foo-nav-port {
   color: var(--navyblue, #2e2f42);
   font-family: "Roboto", sans-serif;
