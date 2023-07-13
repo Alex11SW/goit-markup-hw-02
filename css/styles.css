@@ -469,6 +469,9 @@ body {
   text-decoration: none;
   margin-left: 76px;
 }
+.foo-nav-span {
+  color: var(--navyblue);
+}
 .foo-nav-spc {
   display: inline-flex;
   align-items: flex-start;
