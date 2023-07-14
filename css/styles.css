@@ -82,10 +82,6 @@ body {
 .text-list-item {
   color: var(--navyblue);
 }
-.hove:hover,
-.hove:focus {
-  color: #404bbf;
-}
 
 .text-add {
   font-family: "Roboto", sans-serif;
@@ -114,6 +110,9 @@ body {
   color: #404bbf;
 }
 .text-list-item:hover {
+  color: #404bbf;
+}
+.text-list-item:focus {
   color: #404bbf;
 }
 /*-----------------------------------main-----------------------------------*/
