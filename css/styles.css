@@ -600,3 +600,6 @@ body {
 .low {
   background-color: var(--navyblue);
 }
+.foo-nav-spane {
+  color: var(--besh);
+}
