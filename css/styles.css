@@ -24,8 +24,6 @@ body {
 .top-line {
   justify-content: center;
   text-align: center;
-
-  flex-shrink: 0;
 }
 
 .logo {
@@ -118,7 +116,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  border-radius: 4px;
+
   background: var(--iris, #4d5ae5);
 
   cursor: pointer;
@@ -215,8 +213,6 @@ body {
   justify-content: center;
 
   background: var(--white, #fff);
-
-  margin-right: 24px;
 }
 .team-item-four {
   justify-content: center;
