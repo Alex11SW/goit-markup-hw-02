@@ -86,9 +86,7 @@ body {
 .hove:focus {
   color: #404bbf;
 }
-.hove {
-  text-decoration: none;
-}
+
 .text-add {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
