@@ -79,6 +79,9 @@ body {
   list-style: none;
   text-decoration: none;
 }
+.text-list-item {
+  color: var(--navyblue);
+}
 .hove:hover,
 .hove:focus {
   color: #404bbf;
@@ -99,6 +102,18 @@ body {
   text-align: center;
   color: var(--slate, #434455);
   text-decoration: none;
+}
+.adres-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.adres-item:hover {
+  color: #404bbf;
+}
+.adres-item:focus {
+  color: #404bbf;
 }
 /*-----------------------------------main-----------------------------------*/
 .hero {
