@@ -113,6 +113,9 @@ body {
 .adres-item:focus {
   color: #404bbf;
 }
+.text-list-item:hover {
+  color: #404bbf;
+}
 /*-----------------------------------main-----------------------------------*/
 .hero {
   width: 1440px;
